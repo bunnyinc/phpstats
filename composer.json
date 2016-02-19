@@ -1,0 +1,23 @@
+{
+    "name": "PHPStats/PHPStats",
+    "type": "library",
+    "description": "Statistics library",
+    "keywords": ["stats","statistics"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Michael Cordingley",
+            "email": "Michael.Cordingley@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPStats\\": "lib"
+        }
+    }
+}
